@@ -2,8 +2,6 @@
 title: "Important information"
 ---
 
-## Weather in Senegal
-
 |                 |
 |-----------------------------------|
 | <img src="assets/afs.jpg" width="30">   Weather in Senegal    | 
