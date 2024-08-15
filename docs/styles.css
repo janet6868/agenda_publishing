@@ -139,7 +139,7 @@ h3 {
 
 
 /* Responsive design adjustments */
-@media (max-width: 100000px) {
+@media (max-width: 100%) {
     .table-agenda, .table-agenda thead, .table-agenda tbody, .table-agenda th, .table-agenda td, .table-agenda tr {
         display: block; /* Block display for responsive tables */
     }
@@ -174,12 +174,12 @@ h3 {
 
 /* Additional button styling for agenda navigation */
 #timeline button {
-    padding: 10px 20px; /* Padding for buttons */
+    padding: 10px 5px; /* Padding for buttons */
     margin-right: 5px; /* Margin between buttons */
-    background-color: #ffc506; /* Blue background */
-    color: rgb(22, 21, 21); /* White text */
+    background-color: #06691c; /* Blue background */
+    color: rgb(255, 255, 255); /* White text */
     border: none; /* No borders */
-    border-radius: 5px; /* Rounded corners */
+    border-radius: 2px; /* Rounded corners */
     font-weight: bold; /* Bold font for distinction */
     cursor: pointer; /* Pointer cursor on hover */
     transition: background-color 0.3s; /* Smooth transition for background color */

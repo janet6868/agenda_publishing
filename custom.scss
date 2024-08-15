@@ -1,11 +1,11 @@
 
 /*-- scss:defaults --*/
 
-$theme-spotify-green: hsl(133, 92%, 33%);
-$theme-lighter-green: #f8f193;
+$theme-spotify-green: hsl(135, 93%, 35%);
+$theme-lighter-green: #e7e3a3;
 $theme-dark-purple: #7D3C98;
-$theme-light-purple: #17cf11;
-$theme-darkest-gray: #191414;
+$theme-light-purple: #0a189b;
+$theme-darkest-gray: #220aac;
 $theme-medium-gray: #282828;
 $theme-light-gray: #f4f4f4;
 $theme-text-color: rgb(19, 1, 1);
@@ -67,7 +67,7 @@ td {
 /* creates the second layer: an unnamed, anonymous layer */
 @layer {
   body {
-    margin: 0;
+    margin: 10;
   }
 }
 /* creates the third and fourth layers: `theme` and `utilities` */
@@ -257,7 +257,7 @@ footer {
   text-align: center;
   padding: 5px;
   background-color: #abbaba;
-  color: #41eea6;
+  color: #fcfffe;
 }
 
 /*navigaton ?*/
