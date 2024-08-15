@@ -5,14 +5,19 @@ document.addEventListener('DOMContentLoaded', function() {
     day1: `
       <h3>Monday 26-Aug: Where are we now?</h3>
       <table>
-        <tr><th>Time</th><th>Task</th><th>Task Manager</th><th>Moderator</th><th>Resources</th></tr>
-        <tr><td>0700 - 0830</td><td>Registration</td><td>E. Adjowa, A. Bah</td><td></td><td>Name Tags, registration/sign-in sheets</td></tr>
-        <tr><td>0830 - 0840</td><td>Agenda Presentation</td><td>M. Sayo</td><td>A. Diama</td><td>Projector, Screen, Sound system</td></tr>
-        <tr><td>0840 - 0915</td><td>Welcome and Remarks</td><td>P Bartel & M Bako</td><td></td><td>Projector, Screen, Sound system</td></tr>
-        <tr><td>0915 - 0930</td><td>Participant Introductions</td><td>All</td><td>A. Diama</td><td>Microphone</td></tr>
-        <tr><td>0930 - 1000</td><td>Presentation of Conference objectives</td><td>K. Gelaye</td><td>A. Diama</td><td>Projector, Screen, Sound system</td></tr>
-        <tr><td>1000 - 1030</td><td>Coffee Break & Family Photo</td><td></td><td>A. Diama, E. Adjowa</td><td>Camera, coffee, Snacks</td></tr>
-        <!-- Add more rows as needed -->
+      <tr><th>Time</th><th>Task</th><th>Task Manager</th><th>Moderator</th><th>Resources</th></tr>
+      <tr><td>0700 - 0830</td><td>Registration</td><td>E. Adjowa, A. Bah</td><td></td><td>Name Tags, registration/sign-in sheets</td></tr>
+      <tr><td>0830 - 0840</td><td>Agenda Presentation</td><td>M. Sayo</td><td>A. Diama</td><td>Projector, Screen, Sound system</td></tr>
+      <tr><td>0840 - 0915</td><td>Welcome and Remarks</td><td>P Bartel & M Bako</td><td></td><td>Projector, Screen, Sound system</td></tr>
+      <tr><td>0915 - 0930</td><td>Participant Introductions</td><td>All</td><td>A. Diama</td><td>Microphone</td></tr>
+      <tr><td>0930 - 1000</td><td>Presentation of Conference objectives</td><td>K. Gelaye</td><td>A. Diama</td><td>Projector, Screen, Sound system</td></tr>
+      <tr><td>1000 - 1030</td><td>Coffee Break & Family Photo</td><td></td><td>A. Diama, E. Adjowa</td><td>Camera, coffee, Snacks</td></tr>
+      <tr><td>1030 - 1145</td><td>Successes; video and stories</td><td>T Niang & A Diama</td><td>M Bako</td><td>Projector, Screen, Sound system</td></tr>
+      <tr><td>1145 - 1300</td><td>Deliverables, ARLs & Impacts (PMP) with discussion</td><td>M. Sayo</td><td>PCS Traore</td><td>Projector, Screen, Sound system</td></tr>
+      <tr><td>1300 - 1400</td><td>Lunch</td><td></td><td></td><td></td></tr>
+      <tr><td>1400 - 1430</td><td>Challenges Identified and Steps Taken</td><td>PCS Traore</td><td></td><td></td></tr>
+      <tr><td>1430 - 1600</td><td>Lessons Learnt - Breakout into 5 groups</td><td>M Sayo</td><td>T Niang</td><td>Flip Charts, Pens, Tables</td></tr>
+      <tr><td>1600 - 1645</td><td>Report out from Groups</td><td>Rapporteurs</td><td>M Bako</td><td>Projector, Screen, Sound system</td></tr>
       </table>
     `,
     day2: `
@@ -69,14 +74,24 @@ document.addEventListener('DOMContentLoaded', function() {
 
   };
 
-  function showAgenda(day) {
-    agendaDisplay.innerHTML = agendas[day];
-  }
-
   document.getElementById('day1').addEventListener('click', () => showAgenda('day1'));
   document.getElementById('day2').addEventListener('click', () => showAgenda('day2'));
   document.getElementById('day3').addEventListener('click', () => showAgenda('day3'));
   document.getElementById('day4').addEventListener('click', () => showAgenda('day4'));
   document.getElementById('day5').addEventListener('click', () => showAgenda('day5'));
   // Add more event listeners for additional days
+
+  function showAgenda(day) {
+    agendaDisplay.innerHTML = agendas[day];
+    buttons.forEach(btn => btn.classList.remove('active'));
+    document.getElementById(day).classList.add('active');
+  }
+  buttons.forEach(button => {
+    button.addEventListener('click', function() {
+        showAgenda(this.id);
+    });
+    });
+
+    // Show Day 1 agenda by default
+  showAgenda('day1');
 });

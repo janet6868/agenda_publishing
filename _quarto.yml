@@ -2,19 +2,19 @@ project:
   type: website
 website:
       title: "SERVIR WEST AFRICA HUB"
-      favicon: SERVIRWA.png
+      favicon: url('assets/SERVIRWA.png')
       page-navigation: true
       back-to-top-navigation: true
-      page-footer: "Copyright 2021, Norah Jones" 
-      #background: light
+      page-footer: "Copyright 2024, SERVIR WA" 
+
       #utput-dir: docs
       #   right: 
       # - icon: github
       #   href: https://github.com/
       # - icon: twitter 
       #   href: https://twitter.com/ 
-      site-url: https://servir.icrisat.org/
-      repo-url: https://servir.icrisat.org/
+     # site-url: https://servir.icrisat.org/
+      #repo-url: https://servir.icrisat.org/
       #repo-actions: [edit, source, issue]
       #sidebar:
       navbar:

@@ -1,5 +1,5 @@
 ---
-title: "Annual Work Plan Conference"
+title: "Conference Agenda"
 subtitle: "Saly Senegal, August 26-30, 2024"
 format:
   html:
@@ -19,7 +19,7 @@ format:
 <script src="agenda.js"></script>
 
 ::: {#main-container}
-# Coning Soon...
+# Coming Soon...
 
 ::: {#countdown}
 <div class="time-block">
@@ -41,10 +41,10 @@ format:
 :::
 
 
-## SERVIR WA Annual Work Plan Conference Agenda
+## Conference Agenda
 <div id="timeline">
 <ul>
-  <button id="day1">Monday, 26-Aug</button>
+  <button id="day1"class="active">Monday, 26-Aug</button>
   <button id="day2">Tuesday, 27-Aug</button>
   <button id="day3">Wednesday, 28-Aug</button>
   <button id="day4">Thursday, 29-Aug</button>
@@ -55,5 +55,10 @@ format:
 <div id="agenda-display"></div>
 
 
-
+ <footer>
+ <img src="assets/patr.png" width="400">,  
+    <small>
+      Copyright © 2024 SERVIR West Africa Hub.
+    </small>
+  </footer>
 
