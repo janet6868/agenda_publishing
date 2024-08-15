@@ -2,7 +2,7 @@
 /*-- scss:defaults --*/
 
 $theme-spotify-green: hsl(135, 93%, 35%);
-$theme-lighter-green: #fdfad4;
+$theme-lighter-green: #d4f5fd;
 $theme-dark-purple: #7D3C98;
 $theme-light-purple: #0a189b;
 $theme-darkest-gray: #220aac;
@@ -22,6 +22,39 @@ $sidebar-fg: $theme-darkest-gray;
 $code-block-bg: $theme-medium-gray;
 
 /*-- scss:rules --*/
+    header {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .logos {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+    .top-logos {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-bottom: 20px;
+    }
+    .logos img {
+      max-width: 200px;
+      height: auto;
+    }
+    h1 {
+      margin-bottom: 10px;
+    }
+    .website-link {
+      margin-top: 10px;
+    }
+    .website-link a {
+      text-decoration: none;
+      color: #0066cc;
+      font-weight: bold;
+    }
 
 header > h1 {
   margin-bottom: 0;
@@ -38,10 +71,10 @@ body {
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
-  border-radius: 0px;
+  border-radius: 10px;
   color: #eff3ed;
   font-weight: normal;
-  font-size: 15px;
+  font-size: 12px;
   line-height: 1.1875;
   margin: 20;
   padding: 10;
@@ -50,11 +83,11 @@ body {
  /* Display options for tables */
 table {
   display: block;
-  max-width: 1500%;
+  max-width: 100%;
   overflow: auto;
 }
 td {
-  mid-width: 1000px;
+  mid-width: 100%;
 }
 /* creates the first layer: `layout` */
 @layer layout {
@@ -172,12 +205,18 @@ a {
 /* navbar */
 .navbar {
   height: 100px;
-  position: sticky;
-  top: 10;
+  width: 100%;
+  font-size: 3em;
+  padding: 10px;
+  border-radius: 0px;
   border-bottom: 1.5px solid rgb(255, 255, 255);
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between; /* This will space the items equally */
+  align-items: center; /* Centers items vertically */
+  position: sticky;
+  top: 0; /* Corrected the position to stick to the top */
+ /* justify-content: center; align-items: center; position: sticky;*/
+ 
 }
 
 .content {

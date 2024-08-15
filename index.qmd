@@ -1,32 +1,24 @@
 ---
 title: ""
-logo: "assets/SERVIRWA.png"
+logo: ""
 format: 
   html:
     css: custom.scss
 ---
 
-🔗 
-
- <style>
-    header {
-      text-align: center; /* Aligns text and inline elements to the center */
-      display: flex; /* Uses flexbox to manage layout */
-      flex-direction: column; /* Aligns children elements vertically */
-      align-items: center; /* Centers the flex items along the cross axis */
-    }
-  </style>
-</head>
-<body>
-  <header>
-    <img src="assets/servirlogosmall.png" width="300" alt="MDN logo" />
-    <h1>Welcome to Annual Work Plan Conference</h1>
-     <h4>[Click Here for SERVIR WA Official Website](https://servir.icrisat.org/)</h4>
-  </header>
-</body>
-
-
-
+<div class="logos">
+  <div class="top-logos">
+    <img src="assets/USAID.png" alt="Logo 1" />
+    <img src="assets/NASA.png" alt="Logo 2" />
+    <img src="assets/ICRISAT.png" alt="Logo 3" />
+  </div>
+  <img src="assets/SERVIRWA.png" alt="SERVIR logo" />
+</div>
+<h1>Welcome to Annual Work Plan Conference</h1>
+<div class="website-link">
+  <a href="https://servir.icrisat.org/" target="_blank">Click Here for SERVIR WA Official Website</a>
+</div>
+  
 
 ## Current Thematic Areas 
 
@@ -60,25 +52,4 @@ format:
 | Capacity Building               |                             |
 | Small Innovation Grants          |                            |
 
-<!-- ## Service Portfolio
 
-| Service Area                       | Services Offered                                    |
-|------------------------------------|-----------------------------------------------------|
-| Agriculture and Food Security      | - ![Logo](path/to/logo1.png) Crop Monitoring and Condition  Assessment Assessment          |
-|                                    | - ![Logo](path/to/logo2.png) Desert Locust Risk Mapping (P-Locust)   (P-Locust)             |
-|                                    | - ![Logo](path/to/logo3.png) Bridging the Gap Between AFS and Weather & Climate|
-| Ecosystem and Carbon Management    | - ![Logo](path/to/logo1.png) Artisanal Mining Monitoring                       |
-|                                    | - ![Logo](path/to/logo2.png) Charcoal Production Monitoring                    |
-|                                    | - ![Logo](path/to/logo3.png) Commune-Level Development Planning                |
-|                                    | - ![Logo](path/to/logo4.png) Farmer-Managed Land Natural Regeneration          |
-|                                    | - ![Logo](path/to/logo5.png) Harmonization of Regional Land use/Land Cover Classification System|
-| Water Security                     | - ![Logo](path/to/logo1.png) Flash Flood Vulnerability Mapping                 |
-|                                    | - ![Logo](path/to/logo2.png) GroundWater Monitoring                            |
-|                                    | - ![Logo](path/to/logo3.png) Monitoring Ephemeral Water Bodies-Wendou          |
-| Weather and Climate Resilience     | - ![Logo](path/to/logo1.png) Seasonal Forecasting                              |
-| Financial Instruments              | - ![Logo](path/to/logo2.png) Local Risk Control                                |
-|                                    | - ![Logo](path/to/logo3.png) Disaster Preparedness                             |
-| Capacity Building                  | - ![Logo](path/to/logo1.png) Training and Workshops                            |
-| Sustainable Development Goals Mapping | - ![Logo](path/to/logo2.png) SDG Localization and Monitoring                    |
-| Small Innovation Grants            | - ![Logo](path/to/logo3.png) Supporting Grassroots Innovation                   |
- -->

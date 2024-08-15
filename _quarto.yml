@@ -1,7 +1,7 @@
 project:
   type: website
 website:
-      title: "SERVIR WEST AFRICA HUB"
+      title: ""
       favicon: url('assets/SERVIRWA.png')
       page-navigation: true
       back-to-top-navigation: true
@@ -16,6 +16,7 @@ website:
      # site-url: https://servir.icrisat.org/
       #repo-url: https://servir.icrisat.org/
       #repo-actions: [edit, source, issue]
+      #SERVIR WEST AFRICA HUB
       #sidebar:
       navbar:
         left:
