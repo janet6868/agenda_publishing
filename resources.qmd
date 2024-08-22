@@ -1,0 +1,46 @@
+---
+# title: "Important information"
+---
+
+
+# Important information
+|  | **Details** |
+|------------------|----------------|
+| <img src="assets/saly.jpg" width="100"> **Saly-Senegal** | Saly is a popular seaside resort town located along the Petite Côte in Senegal, about 70 kilometers south of Dakar. It is known for its beautiful beaches, resorts, and vibrant tourist scene. |
+| <img src="assets/weather.png" width="100"> **Weather** | Saly has a tropical climate with a wet season (June to October) The average temperature ranges between 25 degrees to 30 degrees. It can be humid, especially during the wet season. |
+| <img src="assets/charger.png" width="100"> **Charger Types** | Charger types: type C, type D, type E, and type K. The standard voltage is 230 V at a frequency of 50 Hz. |
+| <img src="assets/car.jpg" width="100"> **Transport in Senegal** |  Transportation arrangements have been made for all participants, including airport pickups and drop-s, to and from the Hotel. You will find a driver from CSE with a placard written "SERVIR WA_AWP MEETING". |
+| <img src="assets/site.png" width="100"> **Site Visit** | If you plan to participate, please reach out to us. |
+| <img src="assets/health.jfif" width="100"> **Health** | Saly is in a malaria-endemic area. It’s advisable to take preventive measures, such as antimalarial medication and using mosquito repellent. |
+| <img src="assets/safety.jfif" width="100"> **Safety** | Saly is generally safe, but take normal precautions to protect yourself and your belongings. |
+| <img src="assets/visa.png" width="100"> **Visa Information** | Ensure you have the necessary documentation for your stay in Senegal. |
+| <img src="assets/magal.png" width="100"> **Magal Celebration** | The Magal celebration is a significant event in Senegal. The Magal will be happening this weekend (Friday, August 23rd, 2024). Although it is happening in Touba (about 185km away from Dakar), there will be heavy traffic entering and exiting Dakar, because around 5 million people are expected to attend and most of them live in Dakar. |
+| <img src="assets/contacts.png" width="100"> **Contacts in Senegal** | - Janet: +221 78 171 96 05 (Local and WhatsApp) <br> - Thioro: +221 77 633 33 75 (Local and WhatsApp) <br> - Eyram: Servir.Admin@icrisat.org 
+
+<br> <br> **ENJOY YOUR STAY IN SALY, SENEGAL AND HAVE A FRUITFUL MEETING!!!!!!!!!!!!!!!!!!!!!** |
+
+
+
+
+
+
+<!-- |                 |      | |
+|-----------------|--|------------------------------------------------------|
+| <img src="assets/weather.png" width="120"> |  | Weather in Senegal - rainy season, though still hot and humid. |
+| <img src="assets/charger.png" width="120"> | | Charger types: type C, type D, type E, and type K; standard voltage is 230 V at a frequency of 50 Hz. |
+| <img src="assets/car.jpg" width="120">     |Please note that  | Airport pickup - (please confirm your name and flight details <a href="
+https://icrisatorg-my.sharepoint.com/:x:/g/personal/janet_mutuku_icrisat_org/EQB_Hce8Iz5OlApUqesH-H0BwNrCXmeaO0JASV6W5A9Vuw?e=UOYqJd"><img src="assets/click.jpg" width="40"></a>).|
+| <img src="assets/field.jpg" width="100">   |  | Field trip - if planning to participate, register <a href="https://icrisatorg-my.sharepoint.com/:x:/g/personal/janet_mutuku_icrisat_org/EchHz4hk7x1BmGkvFltoIUYBrMDhUT85ShamZOdw6QAkOw?e=P6hL0o"><img src="assets/click.jpg" width="40"></a>.|
+| <img src="assets/visa.png" width="30">     |  | Visa information. | -->
+
+
+<!-- # Contact
+
+- Logistics - Eyram, Thioro Niang, Moussa Sayo, Janet
+- Tickets - Eyram, Aboubacar, Mousa Kone 
+- Agenda - Paul, Sibiry, Kidia, Mansour
+- Field trip - Sibiry, Kidia, Janet
+- AWP submissions - Assigned PMU member -->
+
+
+

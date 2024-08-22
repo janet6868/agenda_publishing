@@ -1,0 +1,21 @@
+---
+# title: 
+format: 
+  html:
+    css: styles.css
+    # include-after-body: 
+    #   - services.js 
+---
+
+# SERVIR Thematic Areas and Services
+
+| Thematic Area                       |                         | Services  Portfolio                                                                                     |
+|-------------------------------------|-----------------------------------|------------------------------------------------------------------------------------------------|
+| **Agriculture and Food Security**    | <img src="assets/afs.jpg" alt="AFS Icon" width="50"/>       | - Crop Monitoring and Condition Assessment  <br> - Desert Locust Risk Mapping (P-Locust)       <br> - Bridging the Gap Between AFS and Weather & Climate    |
+| **Ecosystem and Carbon Management**  | <img src="assets/ecm.jpg" alt="ECM Icon" width="50"/>       | - Artisanal Mining Monitoring <br> - Charcoal Production Monitoring  <br> - Commune-Level Development Planning <br> - Farmer-Managed Land Natural Regeneration <br> - Harmonization of Regional Land use/Land Cover Classification System |
+| **Water Security**                  | <img src="assets/ws.jpg" alt="WS Icon" width="50"/>         | - Flash Flood Vulnerability Mapping <br> - GroundWater Monitoring <br> - Monitoring Ephemeral Water Bodies-Wendou    |
+| **Weather and Climate Resilience**   | <img src="assets/wcr.jpg" alt="WCR Icon" width="50"/>       | - Seasonal Forecasting    |
+| **Financial Instruments**            | <img src="assets/fis.png" alt="FIS Icon" width="50"/>       | - Local Risk Control <br> - Disaster Preparedness    |
+| **Sustainable Development Goals**    |                                   | - SDG mapping    |
+| **Capacity Building**                |                                   | - Technical Trainings    |
+| **Small Innovation Grants**          |                                   | - Fellowships    |
